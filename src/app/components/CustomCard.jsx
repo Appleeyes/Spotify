@@ -43,7 +43,7 @@ export const CustomCard = ({ className, offer, title, price, description, terms,
                             <br />
                         </React.Fragment>
                     )}
-                    <Button style="button" link="#/plans">VIEW PLANS</Button>
+                    <Button link="#/plans">VIEW PLANS</Button>
                 </div>
             </div>
             <p className='terms'><u>Terms and conditions apply.</u> {terms}</p>
