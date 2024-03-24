@@ -12,17 +12,17 @@ export const LandingPageHeader = () => {
         <div className="menu">
             <ul>
                 <li>
-                    <a href="#/premium">Premium</a>
+                    <a href="/premium">Premium</a>
                 </li>
                 <li>
-                    <a href="#/support">Support</a>
+                    <a href="/support">Support</a>
                 </li>
                 <li>
-                    <a href="#/download">Download</a>
+                    <a href="/download">Download</a>
                 </li>
                 <li>|</li>
                 <li className='active'>
-                    <a href="#/sign-up">Sign up</a>
+                    <a href="/sign-up">Sign up</a>
                 </li>
                 <li className='active'>
                         <Link to="/Login"> Log In </Link>
