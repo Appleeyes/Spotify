@@ -1,0 +1,20 @@
+button {
+    padding: 10px 30px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+    border-radius: 30px;
+    border: 2px solid;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    button {
+        padding: 8px 20px;
+        font-size: 10px;
+        line-height: 15px;
+    }
+}

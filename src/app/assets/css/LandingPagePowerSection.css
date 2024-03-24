@@ -1,0 +1,37 @@
+.power-section {
+    background-color: #fff;
+    text-align: center;
+    color: #000;
+    padding: 80px var(--app-block-padding);
+}
+
+.power-section h3 {
+    font-size: 39px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: -0.6000000238418579px;
+    margin-bottom: 80px;
+}
+
+.power-frame {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.frame div{
+    width: 200px;
+}
+
+.power-frame h5 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27.3px;
+    margin-bottom: 10px;
+}
+
+.power-frame p {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+}

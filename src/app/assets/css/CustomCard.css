@@ -1,0 +1,96 @@
+.card {
+    background-color: #fff;
+    width: 230px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card .offer-container {
+    border-bottom: 2px solid #CCCCCC
+}
+
+.card .offer {
+    background-color: #0D72EA;
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 5px;
+    font-size: 8px;
+    font-weight: 700;
+    line-height: 14.95px;
+    word-spacing: 1px;
+    text-align: left;
+    width: 60px;
+}
+
+.card .tag {
+    color: #0D72EA;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16.1px;
+    text-align: left;
+    border: 2px solid #9dc5f5;
+    border-radius: 5px;
+    width: 140px;
+    padding: 3px;
+    margin-top: 0;
+}
+
+.card .title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.card .price,
+.card .desc {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.card .desc {
+    margin-bottom: 30px;
+}
+
+.card .features {
+    border-bottom: 2px solid #CCCCCC;
+}
+
+.card .feature {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.card .texts {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.card Button {
+    background-color: #000;
+    width: 100%;
+    font-size: 8px;
+    margin-top: 20%;
+}
+
+.card .terms {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #535353;
+}
