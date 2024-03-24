@@ -1,9 +1,9 @@
 import '../assets/css/Button.css';
 
-export const Button = ({ children, style, link }) => {
+export const Button = ({ children, className, link }) => {
     return (
-        <a href={link}>
-            <button className={style}>{children}</button>
+        <a href={link} className={className}>
+            <button className={className}>{children}</button>
         </a>
     );
 };

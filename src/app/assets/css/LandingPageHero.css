@@ -29,12 +29,12 @@ p {
     margin-bottom: 30px;
 }
 
-.button1 {
+.buttons .button1 {
     background-color: #000;
     border-color: #000;
 }
 
-.button2 {
+.buttons .button2 {
     background-color: transparent;
     border-color: #fff;
 }

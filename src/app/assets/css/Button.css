@@ -11,6 +11,10 @@ button {
     cursor: pointer;
 }
 
+a {
+    border-radius: 30px;
+}
+
 @media screen and (max-width: 768px) {
     button {
         padding: 8px 20px;
