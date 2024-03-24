@@ -68,7 +68,7 @@ export const LandingPagePremiumSection = () => {
 
             <div className='special'>
                 <p>Special discount for eligible students in university</p>
-                <Button style="learn-button" link="#/learn-more">LEARN MORE</Button>
+                <Button className="learn-button" link="/learn-more">LEARN MORE</Button>
             </div>
         </div>
     )
