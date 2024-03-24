@@ -16,9 +16,9 @@ export const Login = () => {
                 </div>
             </div>
             <div className='buttons'>
-                <Button style="fb-button" link="#/fb"><img src={FB} alt="FB Free Icon" /><span>CONTINUE WITH FACEBOOK</span></Button>
-                <Button style="ios-button" link="#/ios"><img src={IOS} alt="IOS Free Icon" /><span>CONTINUE WITH APPLE</span></Button>
-                <Button style="google-button" link="#/google"><img src={GOOGLE} alt="GOOGLE Free Icon" /><span>CONTINUE WITH GOOGLE</span></Button>
+                <Button className="fb-button" link="/fb"><img src={FB} alt="FB Free Icon" /><span>CONTINUE WITH FACEBOOK</span></Button>
+                <Button className="ios-button" link="/ios"><img src={IOS} alt="IOS Free Icon" /><span>CONTINUE WITH APPLE</span></Button>
+                <Button className="google-button" link="/google"><img src={GOOGLE} alt="GOOGLE Free Icon" /><span>CONTINUE WITH GOOGLE</span></Button>
             </div>
             <div className='line'>
                 <hr /> <span>OR</span> <hr />
@@ -33,18 +33,18 @@ export const Login = () => {
                     <label htmlFor="password">Password</label>
                     <input type="text" placeholder='Password' style={{ backgroundImage: `url(${Eye})`, backgroundPosition: 'right', backgroundRepeat: 'no-repeat', paddingLeft: '10px' }} />
                 </div>
-                <a href="#">Forgot your password?</a>
+                <a href="/">Forgot your password?</a>
                 <div className='forget-container'>
                     <div className='forget'>
                         <img src={Mark} alt="Mark Free Icon" />
                         <span>Remember me</span>
                     </div>
-                    <Button style="login-button" link="#/login">LOG IN</Button>
+                    <Button className="login-button" link="/login">LOG IN</Button>
                 </div>
             </form>
             <div className='bottom'>
                 <h5>Don't have an account?</h5>
-                <Button style="sigup-button" link="#/login">SIGN UP FOR SPOTIFY</Button>
+                <Button className="sigup-button" link="/login">SIGN UP FOR SPOTIFY</Button>
             </div>
         </div>
     )

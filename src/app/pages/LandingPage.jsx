@@ -1,4 +1,3 @@
-// LandingPage.jsx
 import React from 'react';
 import { LandingPageHeader } from '../components/LandingPageHeader';
 import { LandingPageHero } from '../components/LandingPageHero';

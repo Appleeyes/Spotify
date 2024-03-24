@@ -29,6 +29,7 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
+    border-color: #1877F2;
 }
 
 .fb-button img {
@@ -43,6 +44,7 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
+    border-color: #000;
 }
 
 .ios-button img {
